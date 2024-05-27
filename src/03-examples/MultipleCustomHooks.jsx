@@ -40,6 +40,7 @@ export const MultipleCustomHooks = () => {
         <button 
             onClick={() => increment()}
             className="btn btn-primary mt-2"
+            data-testid='siguienteBtn'
         >
             Siguiente
         </button>
